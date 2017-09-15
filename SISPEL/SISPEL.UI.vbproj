@@ -149,6 +149,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SISPEL.Biz\SISPEL.Biz.vbproj">
+      <Project>{1abd9918-ad6e-4823-bd92-6473b7a6e704}</Project>
+      <Name>SISPEL.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISPEL.BLL\SISPEL.BLL.vbproj">
+      <Project>{e089ad48-ecb5-46d0-8da9-74d2c2b36f2b}</Project>
+      <Name>SISPEL.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
