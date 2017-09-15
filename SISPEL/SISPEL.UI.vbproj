@@ -91,10 +91,16 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmGestionEmpleado.Designer.vb">
+    <Compile Include="Empleado\frmAltaEmpleado.Designer.vb">
+      <DependentUpon>frmAltaEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado\frmAltaEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado\frmGestionEmpleado.Designer.vb">
       <DependentUpon>frmGestionEmpleado.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmGestionEmpleado.vb">
+    <Compile Include="Empleado\frmGestionEmpleado.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -117,7 +123,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmGestionEmpleado.resx">
+    <EmbeddedResource Include="Empleado\frmGestionEmpleado.resx">
       <DependentUpon>frmGestionEmpleado.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
