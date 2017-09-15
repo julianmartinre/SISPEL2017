@@ -1,8 +1,12 @@
-﻿Public Class Configuracion
+﻿Namespace Persistencia
 
-    Public Property Servidor() As String
-    Public Property Catalogo() As String
-    Public Property NombreUsuario() As String
-    Public Property Clave() As String
+    Public Class Configuracion
 
-End Class
+        Public Property Servidor() As String
+        Public Property Catalogo() As String
+        Public Property NombreUsuario() As String
+        Public Property Clave() As String
+
+    End Class
+
+End Namespace

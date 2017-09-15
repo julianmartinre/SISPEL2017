@@ -63,7 +63,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.vb" />
+    <Compile Include="EmpleadoDAL.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -98,6 +98,16 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SISPEL.Biz\SISPEL.Biz.vbproj">
+      <Project>{1abd9918-ad6e-4823-bd92-6473b7a6e704}</Project>
+      <Name>SISPEL.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISPEL.Framework\SISPEL.Framework.vbproj">
+      <Project>{d3dc0924-731e-4d52-a510-eefd9cde6f65}</Project>
+      <Name>SISPEL.Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
