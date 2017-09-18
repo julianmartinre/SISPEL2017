@@ -103,7 +103,7 @@ Partial Class frmAltaEmpleado
         Me.txtDomicilio.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtDomicilio.CustomButton.UseSelectable = True
         Me.txtDomicilio.CustomButton.Visible = False
-        Me.txtDomicilio.Lines = New String() {"MetroTextBox7"}
+        Me.txtDomicilio.Lines = New String(-1) {}
         Me.txtDomicilio.Location = New System.Drawing.Point(117, 199)
         Me.txtDomicilio.MaxLength = 32767
         Me.txtDomicilio.Name = "txtDomicilio"
@@ -115,7 +115,6 @@ Partial Class frmAltaEmpleado
         Me.txtDomicilio.ShortcutsEnabled = True
         Me.txtDomicilio.Size = New System.Drawing.Size(120, 23)
         Me.txtDomicilio.TabIndex = 15
-        Me.txtDomicilio.Text = "MetroTextBox7"
         Me.txtDomicilio.UseSelectable = True
         Me.txtDomicilio.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtDomicilio.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -134,7 +133,7 @@ Partial Class frmAltaEmpleado
         Me.txtTelefono.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtTelefono.CustomButton.UseSelectable = True
         Me.txtTelefono.CustomButton.Visible = False
-        Me.txtTelefono.Lines = New String() {"MetroTextBox6"}
+        Me.txtTelefono.Lines = New String(-1) {}
         Me.txtTelefono.Location = New System.Drawing.Point(117, 170)
         Me.txtTelefono.MaxLength = 32767
         Me.txtTelefono.Name = "txtTelefono"
@@ -146,7 +145,6 @@ Partial Class frmAltaEmpleado
         Me.txtTelefono.ShortcutsEnabled = True
         Me.txtTelefono.Size = New System.Drawing.Size(120, 23)
         Me.txtTelefono.TabIndex = 14
-        Me.txtTelefono.Text = "MetroTextBox6"
         Me.txtTelefono.UseSelectable = True
         Me.txtTelefono.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtTelefono.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -165,7 +163,7 @@ Partial Class frmAltaEmpleado
         Me.txtPassword.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtPassword.CustomButton.UseSelectable = True
         Me.txtPassword.CustomButton.Visible = False
-        Me.txtPassword.Lines = New String() {"MetroTextBox5"}
+        Me.txtPassword.Lines = New String(-1) {}
         Me.txtPassword.Location = New System.Drawing.Point(117, 141)
         Me.txtPassword.MaxLength = 32767
         Me.txtPassword.Name = "txtPassword"
@@ -177,7 +175,6 @@ Partial Class frmAltaEmpleado
         Me.txtPassword.ShortcutsEnabled = True
         Me.txtPassword.Size = New System.Drawing.Size(120, 23)
         Me.txtPassword.TabIndex = 13
-        Me.txtPassword.Text = "MetroTextBox5"
         Me.txtPassword.UseSelectable = True
         Me.txtPassword.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtPassword.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -196,7 +193,7 @@ Partial Class frmAltaEmpleado
         Me.txtUser.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtUser.CustomButton.UseSelectable = True
         Me.txtUser.CustomButton.Visible = False
-        Me.txtUser.Lines = New String() {"MetroTextBox4"}
+        Me.txtUser.Lines = New String(-1) {}
         Me.txtUser.Location = New System.Drawing.Point(117, 112)
         Me.txtUser.MaxLength = 32767
         Me.txtUser.Name = "txtUser"
@@ -208,7 +205,6 @@ Partial Class frmAltaEmpleado
         Me.txtUser.ShortcutsEnabled = True
         Me.txtUser.Size = New System.Drawing.Size(120, 23)
         Me.txtUser.TabIndex = 12
-        Me.txtUser.Text = "MetroTextBox4"
         Me.txtUser.UseSelectable = True
         Me.txtUser.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtUser.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -227,7 +223,7 @@ Partial Class frmAltaEmpleado
         Me.txtDni.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtDni.CustomButton.UseSelectable = True
         Me.txtDni.CustomButton.Visible = False
-        Me.txtDni.Lines = New String() {"MetroTextBox3"}
+        Me.txtDni.Lines = New String(-1) {}
         Me.txtDni.Location = New System.Drawing.Point(117, 83)
         Me.txtDni.MaxLength = 32767
         Me.txtDni.Name = "txtDni"
@@ -239,7 +235,6 @@ Partial Class frmAltaEmpleado
         Me.txtDni.ShortcutsEnabled = True
         Me.txtDni.Size = New System.Drawing.Size(120, 23)
         Me.txtDni.TabIndex = 11
-        Me.txtDni.Text = "MetroTextBox3"
         Me.txtDni.UseSelectable = True
         Me.txtDni.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtDni.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -258,7 +253,7 @@ Partial Class frmAltaEmpleado
         Me.txtApellido.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtApellido.CustomButton.UseSelectable = True
         Me.txtApellido.CustomButton.Visible = False
-        Me.txtApellido.Lines = New String() {"MetroTextBox2"}
+        Me.txtApellido.Lines = New String(-1) {}
         Me.txtApellido.Location = New System.Drawing.Point(117, 54)
         Me.txtApellido.MaxLength = 32767
         Me.txtApellido.Name = "txtApellido"
@@ -270,7 +265,6 @@ Partial Class frmAltaEmpleado
         Me.txtApellido.ShortcutsEnabled = True
         Me.txtApellido.Size = New System.Drawing.Size(120, 23)
         Me.txtApellido.TabIndex = 10
-        Me.txtApellido.Text = "MetroTextBox2"
         Me.txtApellido.UseSelectable = True
         Me.txtApellido.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtApellido.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
@@ -289,7 +283,7 @@ Partial Class frmAltaEmpleado
         Me.txtNombre.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light
         Me.txtNombre.CustomButton.UseSelectable = True
         Me.txtNombre.CustomButton.Visible = False
-        Me.txtNombre.Lines = New String() {"MetroTextBox1"}
+        Me.txtNombre.Lines = New String(-1) {}
         Me.txtNombre.Location = New System.Drawing.Point(117, 25)
         Me.txtNombre.MaxLength = 32767
         Me.txtNombre.Name = "txtNombre"
@@ -301,7 +295,6 @@ Partial Class frmAltaEmpleado
         Me.txtNombre.ShortcutsEnabled = True
         Me.txtNombre.Size = New System.Drawing.Size(120, 23)
         Me.txtNombre.TabIndex = 9
-        Me.txtNombre.Text = "MetroTextBox1"
         Me.txtNombre.UseSelectable = True
         Me.txtNombre.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.txtNombre.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
