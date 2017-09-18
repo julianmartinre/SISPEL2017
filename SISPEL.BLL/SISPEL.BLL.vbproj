@@ -63,7 +63,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gestores\GestorEmpleado.vb" />
+    <Compile Include="BLL\EmpleadoBLL.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -107,6 +107,10 @@
     <ProjectReference Include="..\SISPEL.DAL\SISPEL.DAL.vbproj">
       <Project>{2ebaa975-d50b-44fa-8df6-10ac1276dbe6}</Project>
       <Name>SISPEL.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SISPEL.Framework\SISPEL.Framework.vbproj">
+      <Project>{d3dc0924-731e-4d52-a510-eefd9cde6f65}</Project>
+      <Name>SISPEL.Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

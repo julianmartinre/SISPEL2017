@@ -158,6 +158,10 @@
       <Project>{e089ad48-ecb5-46d0-8da9-74d2c2b36f2b}</Project>
       <Name>SISPEL.BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SISPEL.Framework\SISPEL.Framework.vbproj">
+      <Project>{d3dc0924-731e-4d52-a510-eefd9cde6f65}</Project>
+      <Name>SISPEL.Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
