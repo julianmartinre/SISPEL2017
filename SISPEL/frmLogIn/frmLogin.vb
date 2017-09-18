@@ -14,6 +14,10 @@ Public Class frmLogin
             If unEncriptador.ValidarHash(txtPassword.Text, unEmpleado.password) Then
                 txtUser.Clear()
                 txtPassword.Clear()
+                Dim frmGestionDeEmpleados As New frmGestionEmpleado
+                frmGestionDeEmpleados.Show()
+            Else
+                MsgBox("Error al iniciar sesión.")
             End If
 
         End If

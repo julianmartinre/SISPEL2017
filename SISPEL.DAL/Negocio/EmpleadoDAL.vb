@@ -15,7 +15,7 @@ Namespace DAL
 
         '    config = serializador.Deserealizar(Of Configuracion)(archivoConfiguracion)
 
-        '    Dim nuevaConexion As New Conexion(Conexion.EstrategiasDbEnum.SqlServer, config.Servidor, config.Catalogo)
+        '    Dim nuevaConexion As New Conexion(Conexion.EstrategiasDbEnum.sql, config.Servidor, config.Catalogo)
         '    Dim listaParametros As New List(Of Parametro)
         '    listaParametros.Add(New Parametro("empleado_nombre", Empleado.nombre))
         '    listaParametros.Add(New Parametro("empleado_apellido", Empleado.apellido))
@@ -137,8 +137,8 @@ Namespace DAL
         'End Function
 
         Public Shared Sub GuardarNuevo(propEmpleado As Empleado)
-            Dim mCommand As String = "INSERT INTO Empleado(empleado_nombre, empleado_apellido, empleado_dni, empleado_activo, empleado_id, empleado_userName, empleado_password, empleado_fechaDeNacimiento, empleado_telefono, empleado_domicilio) " &
-                                     "VALUES ('" & propEmpleado.nombre & "', '" & propEmpleado.apellido & "', '" & propEmpleado.dni & "', '" & propEmpleado.activo & "', '" & propEmpleado.idEmpleado & "', '" & propEmpleado.usuario & "', '" & propEmpleado.contrasenia & "', '" & propEmpleado.fechaDeNacimiento & "', '" & propEmpleado.telefono & "', " & propEmpleado.domicilio & ");"
+            Dim mCommand As String = "INSERT INTO Empleado(empleado_nombre, empleado_apellido, empleado_dni, empleado_activo, empleado_userName, empleado_password, empleado_fechaDeNacimiento, empleado_telefono, empleado_domicilio) " &
+                                     "VALUES ('" & propEmpleado.nombre & "', '" & propEmpleado.apellido & "', '" & propEmpleado.dni & "', '" & propEmpleado.activo & "', '" & propEmpleado.usuario & "', '" & propEmpleado.contrasenia & "', '" & propEmpleado.fechaDeNacimiento & "', '" & propEmpleado.telefono & "', '" & propEmpleado.domicilio & "');"
 
             Try
                 BD.ExecuteNonQuery(mCommand)

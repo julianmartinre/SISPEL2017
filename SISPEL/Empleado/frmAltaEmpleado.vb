@@ -80,7 +80,7 @@ Public Class frmAltaEmpleado
         unEmpleado.activo = True
 
         If esValido = True Then
-            'empleadoBLL.insertarEmpleado(unEmpleado)
+            empleadoBLL.insertarEmpleado(unEmpleado)
         End If
 
     End Sub

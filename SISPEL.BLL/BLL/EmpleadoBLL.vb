@@ -143,6 +143,11 @@ Namespace BLL
             Return Me.user
         End Function
 
+        Public Sub insertarEmpleado(unEmpleado As Empleado)
+            Dim empleadoDAL As New EmpleadoDAL
+            EmpleadoDAL.GuardarNuevo(unEmpleado)
+        End Sub
+
     End Class
 
 End Namespace
