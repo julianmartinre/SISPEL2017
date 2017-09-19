@@ -25,7 +25,7 @@
 
         Public Shared Function AplicacionEstaCoriendo(NombreProceso As String) As Boolean
 
-            Return System.Diagnostics.Process.GetProcessesByName(NombreProceso).Length > 0
+            Return Process.GetProcessesByName(NombreProceso).Length > 0
 
         End Function
 

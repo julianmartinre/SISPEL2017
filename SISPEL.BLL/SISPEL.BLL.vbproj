@@ -46,6 +46,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -65,6 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\EmpleadoBLL.vb" />
+    <Compile Include="Idioma\IdiomaBLL.vb" />
+    <Compile Include="Idioma\Traductor.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -115,7 +118,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Idioma\" />
     <Folder Include="Seguridad\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

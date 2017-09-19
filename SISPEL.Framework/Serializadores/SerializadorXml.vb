@@ -12,7 +12,7 @@ Namespace Serializadores
 
             Dim xmlSerializer As New XmlSerializer(unObjeto.GetType())
 
-            Dim ms As New System.IO.MemoryStream
+            Dim ms As New MemoryStream
 
             xmlSerializer.Serialize(ms, unObjeto)
 

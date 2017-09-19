@@ -1,3 +1,7 @@
-﻿'Public Interface IObservador
-'    Sub Actualizar(pObservador As System.Windows.Forms.Control)
-'End Interface
+﻿Imports System.Windows.Forms
+Imports RodriguezEscobedo
+
+Public Interface IObservador
+    Sub Actualizar(pObservador As Control)
+
+End Interface

@@ -1,4 +1,4 @@
-﻿Imports System
+﻿Imports System.ArgumentException
 Imports System.Diagnostics
 
 Namespace Sistema
@@ -50,7 +50,7 @@ Namespace Sistema
             Catch Ex As Security.SecurityException
                 Mensaje = "No tiene Acceso al Visor de Eventos, por Favor Ejecute la aplicacion como Administrador"
 
-            Catch ex As System.ArgumentException
+            Catch ex As ArgumentException
                 Dim ELog As New EventLog("Application", ".", Me.ToString)
                 ELog.WriteEntry("El Origen de Datos ya se encuentra creado para otro Tipo de Log" & vbCrLf & vbCrLf & ex.ToString, EventLogEntryType.Error)
                 Mensaje = "Vea el visor de eventos, Seccion Application"
