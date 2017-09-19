@@ -1,8 +1,11 @@
-﻿Imports RodriguezEscobedo.Framework.Seguridad
+﻿Imports RodriguezEscobedo.Framework
+Imports RodriguezEscobedo.Framework.Seguridad
 Imports SISPEL.Biz.Entities
 Imports SISPEL.BLL.BLL
 
 Public Class frmLogin
+
+    Dim mBitacora As Bitacora = Bitacora.GetInstance
 
     Private Sub MetroButton1_Click(sender As Object, e As EventArgs) Handles MetroButton1.Click
 
@@ -14,6 +17,7 @@ Public Class frmLogin
             If unEncriptador.ValidarHash(txtPassword.Text, unEmpleado.password) Then
                 txtUser.Clear()
                 txtPassword.Clear()
+                mBitacora.GuardarRegistro(unEmpleado.dni, System.DateTime.Now.Date, "Ingreso al sistema.")
                 Dim frmGestionDeEmpleados As New frmGestionEmpleado
                 frmGestionDeEmpleados.Show()
             Else

@@ -81,6 +81,7 @@ Public Class frmAltaEmpleado
 
         If esValido = True Then
             empleadoBLL.insertarEmpleado(unEmpleado)
+            MsgBox("Empleado agregado con éxito.")
         End If
 
     End Sub

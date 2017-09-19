@@ -10,7 +10,8 @@
     <AssemblyName>SISPEL.DAL</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Windows</MyType>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -81,6 +82,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Seguridad\BitacoraDAL.vb" />
     <Compile Include="Seguridad\DVVDAL.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -106,10 +108,6 @@
     <ProjectReference Include="..\SISPEL.Biz\SISPEL.Biz.vbproj">
       <Project>{1abd9918-ad6e-4823-bd92-6473b7a6e704}</Project>
       <Name>SISPEL.Biz</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\SISPEL.Framework\SISPEL.Framework.vbproj">
-      <Project>{d3dc0924-731e-4d52-a510-eefd9cde6f65}</Project>
-      <Name>SISPEL.Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
