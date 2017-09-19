@@ -68,6 +68,7 @@
     <Compile Include="Aplicaciones\Aplicacion.vb" />
     <Compile Include="Aplicaciones\MiAplicacion.vb" />
     <Compile Include="Atributos\Restringido.vb" />
+    <Compile Include="Backup\GestorBackup.vb" />
     <Compile Include="Entidades\DetalleFactura.vb" />
     <Compile Include="Entidades\Domicilio.vb" />
     <Compile Include="Entidades\Factura.vb" />
@@ -145,6 +146,7 @@
       <Name>SISPEL.DAL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
