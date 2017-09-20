@@ -15,7 +15,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SISPEL.Framework", "SISPEL.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{37A95303-25D1-4FBA-951B-C68FAF042996}"
 	ProjectSection(SolutionItems) = preProject
-		SISPELDB2017.sql = SISPELDB2017.sql
+		SISPELDB20092017.sql = SISPELDB20092017.sql
 	EndProjectSection
 EndProject
 Global
